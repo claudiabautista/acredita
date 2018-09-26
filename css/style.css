@@ -1,0 +1,128 @@
+body{
+  background: linear-gradient(to right, #2193B0, #6DD5ED);
+
+}
+/*******LOGIN*****/
+
+.cardBody h4{
+  color:#003764;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+
+}
+.panelLogin{
+  /*border:1px solid yellow;*/
+  width: auto;
+  max-width: 300px;
+  height: auto;
+  margin: 5rem auto;
+  /*max-width: 300px;*/
+  border-radius: -9rem;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+.formUser input{
+  color:#003764;
+  border: 2px solid;
+  /*color: #003764;*/
+  margin-bottom: 20px;
+  border-style: solid;
+  border-radius: 18px;
+  padding: 5px 25px;
+  background-image: url('../img/man-user.svg');
+  background-size: 1.25rem;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+
+.formPass input{
+  color:#003764;
+  border: 2px solid;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-radius: 18px;
+  padding: 5px 25px;
+  background-image: url('../img/locked-padlock.svg');
+  background-size: 1.25rem;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+/*bordes de input al hacer focus*/
+
+.form-control:focus {
+    /*color: #003764;*/
+    border-color:#003764;
+    background-color: #fff;
+    /*border-color: #003764;*/
+    outline: 0;
+  /*  box-shadow: 0 0 0 0.1rem rgb(0, 55, 100);*/
+    /*border:0;*/
+    box-shadow: 0 0 0 0rem rgb(0, 55, 100);*/
+}
+
+
+
+.btnLogin{
+  border: 1px solid #6dd5ed;
+  background: linear-gradient(to right, #2193B0, #6DD5ED);
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 20px;
+}
+.btnLogin:hover{
+  border: 1px solid #2193B0;
+}
+.btnLogin:not(:disabled):not(.disabled):active{
+  border: #2193B0;
+}
+.btnLogin:focus{
+  box-shadow: 0 0 0 0.2rem #6DD5ED;
+}
+.btnLogin:not(:disabled):not(.disabled):active:focus{
+  box-shadow: 0 0 0 0.2rem #6DD5ED;
+}
+/*******LOGIN*****/
+
+
+
+/*media queries*/
+
+@media screen and (max-width:1024px) {
+  body {
+    /*border:5px solid pink;*/
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width:767px){
+  body {
+    /*border:5px solid red;*/
+    font-size: 1.4rem;
+  }
+}
+
+/*mi cel :p*/
+@media screen and (max-width:480px) {
+  body {
+    /*border:5px solid blue;*/
+    font-size: 0.5rem;
+  }
+
+}
+
+@media screen and (max-width:320px) {
+  body{
+    /*border: 5px solid green;*/
+    font-size: 0.5rem;
+
+  }
+
+}
